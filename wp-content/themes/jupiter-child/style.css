@@ -1,0 +1,412 @@
+/*
+Theme Name:     Jupiter Child Theme
+Theme URI: 		  http://www.simonepozzobon.com
+Description:    Custom Theme Giovanni Sebastiano Cozza
+Author:         Simone Pozzobon
+Theme URI: 		  http://www.simonepozzobon.com
+Template:       jupiter
+Version:        5.8
+*/
+
+/* DISABLE ADMIN BAR */
+#wpadminbar {
+  display: none !important;
+}
+
+* {
+    -ms-word-break: normal !important;
+    word-break: normal !important;
+
+    word-break: normal !important;
+
+    -webkit-hyphens: none !important;
+    -moz-hyphens: none !important;
+    hyphens: none !important;
+
+    transition: all 250ms ease-in-out;
+}
+
+.preloader-logo, .preloader-preview-area {
+  min-height: 10%;
+  min-width: 50%;
+}
+
+.header-logo a img {
+    margin-left: 16px;
+}
+
+.add-header-height {
+    margin-top: 10px;
+}
+
+
+/**
+ * MENU
+ */
+
+#profilo-menu {
+  width: 100%;
+  z-index: 2;
+}
+
+#profilo-menu .mk-main-navigation {
+  display: block;
+}
+
+#profilo-menu .header-style-1.header-align-left .mk-header-nav-container {
+  float: none;
+}
+
+#profilo-menu .header-grid.mk-grid {
+  padding: 0;
+}
+
+#profilo-menu .add-header-height {
+  height: 40px !important;
+  background-color: rgb(255, 255, 255);
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+#profilo-menu .mk-header-right {
+  display: none !important;
+}
+
+.is--fixed {
+  position: fixed !important;
+  top: 0;
+  max-width: 1140px;
+}
+
+.mk-classic-menu-wrapper {
+    width: 1100px !important;
+}
+
+.mk-main-navigation {
+    margin: 0 -20px !important;
+}
+
+.mk-header-nav-container,
+.mk-classic-menu-wrapper {
+    padding-top: 0 !important;
+}
+
+.header-style-2 .main-navigation-ul > li.menu-item > a.menu-item-link {
+    line-height: 1em !important;
+}
+
+.mk-header-nav-container.menu-hover-style-4 {
+    background-color:#fff;
+}
+
+.menu-hover-style-4 .main-navigation-ul li.menu-item > a.menu-item-link:hover,
+.menu-hover-style-4 .main-navigation-ul li.menu-item:hover > a.menu-item-link,
+.menu-hover-style-4 .main-navigation-ul li.current-menu-item > a.menu-item-link,
+.menu-hover-style-4 .main-navigation-ul li.current-menu-ancestor > a.menu-item-link,
+.menu-hover-style-4.mk-vm-menuwrapper li a:hover,
+.menu-hover-style-4.mk-vm-menuwrapper li:hover > a,
+.menu-hover-style-4.mk-vm-menuwrapper li.current-menu-item > a,
+.menu-hover-style-4.mk-vm-menuwrapper li.current-menu-ancestor > a,
+.menu-hover-style-5 .main-navigation-ul > li.menu-item > a.menu-item-link:after,
+.menu-hover-style-4 .main-navigation-ul > li.menu-item > a.menu-item-link {
+    font-size: 1em !important;
+    font-weight: bolder !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1px;
+}
+
+.menu-hover-style-4 .main-navigation-ul li.menu-item > a.menu-item-link:hover,
+.menu-hover-style-4 .main-navigation-ul li.menu-item:hover > a.menu-item-link,
+.menu-hover-style-4 .main-navigation-ul li.current-menu-item > a.menu-item-link,
+.menu-hover-style-4 .main-navigation-ul li.current-menu-ancestor > a.menu-item-link,
+.menu-hover-style-4.mk-vm-menuwrapper li a:hover,
+.menu-hover-style-4.mk-vm-menuwrapper li:hover > a,
+.menu-hover-style-4.mk-vm-menuwrapper li.current-menu-item > a,
+.menu-hover-style-4.mk-vm-menuwrapper li.current-menu-ancestor > a,
+.menu-hover-style-5 .main-navigation-ul > li.menu-item > a.menu-item-link:after {
+    background: transparent !important;
+    color: #777 !important;
+    border-bottom: 0;
+}
+
+.menu-hover-style-4 .main-navigation-ul li.menu-item > a.menu-item-link:hover > span,
+.menu-hover-style-4 .main-navigation-ul li.menu-item:hover > a.menu-item-link > span,
+.menu-hover-style-4 .main-navigation-ul li.current-menu-item > a.menu-item-link > span,
+.menu-hover-style-4 .main-navigation-ul li.current-menu-ancestor > a.menu-item-link > span,
+.menu-hover-style-4.mk-vm-menuwrapper li a:hover > span,
+.menu-hover-style-4.mk-vm-menuwrapper li:hover > a > span,
+.menu-hover-style-4.mk-vm-menuwrapper li.current-menu-item > a > span,
+.menu-hover-style-4.mk-vm-menuwrapper li.current-menu-ancestor > a > span {
+    border-bottom: 5px solid #fdd549;
+}
+
+.main-nav-side-search {
+    margin: 4px 0 0 40px !important;
+}
+
+.header-style-2 .shopping-cart-header {
+    margin: 4px 0 0 30px !important;
+}
+
+.main-navigation-ul span {
+    line-height: 30px !important;
+}
+
+div.tg-ajax-button.tg-nav-color.tg-nav-border.tg-nav-font {
+    padding: 18px 48px;
+    border: 3px solid #2e2e2e;
+}
+
+span.tg-nav-color {
+    color: #2e2e2e !important;
+}
+
+div.tg-ajax-button.tg-nav-color.tg-nav-border.tg-nav-font:hover {
+    background-color: #2e2e2e;
+}
+
+div.tg-ajax-button.tg-nav-color.tg-nav-border.tg-nav-font:hover span.tg-nav-color {
+    color: #fff !important;
+}
+
+.mk-header-right {
+  position: absolute;
+}
+
+/**
+ * Theme page wrapper
+ */
+
+@media screen and (min-width: 480px) {
+  #theme-page #mk-page-id-3905 .theme-content {
+      padding: 0 !important;
+  }
+}
+
+
+/* BLOG */
+
+.blog-title {
+    font-weight: bolder;
+}
+
+.blog-excerpt {
+    height: 110px;
+    line-height: 1.1em;
+}
+
+.content-holder > h1.the-title {
+    text-transform: uppercase;
+}
+
+
+/* EVENTS */
+
+.type-tribe_events {
+    padding-bottom: 32px;
+}
+
+.sp-blog-hero {
+    width: 120% !important;
+    left: -10%;
+}
+
+.sp-blog-hero:before {
+    left: -10%;
+    width: 120% !important;
+}
+
+.sp-event-content {
+    padding-bottom: 64px;
+}
+
+.sp-events-subtitle {
+    color: #fff !important;
+}
+
+span.tribe-tickets-remaining {
+    display: block;
+    margin-top: 8px;
+    text-align: left;
+}
+
+.tribe-events-style-full .tribe-events-tickets td {
+    border: none !important;
+}
+
+.sp-social-share:before {
+    width: 60px;
+    height: 3px;
+    position: absolute;
+    left: 50%;
+    margin-left: -30px;
+    top: -60px;
+    content: '';
+    background-color: #222222;
+}
+
+.sp-events-all {
+    text-align: center;
+}
+
+
+/* GRID */
+
+.tg-cats-holder {
+    visibility: hidden;
+}
+
+
+/* Grid Filter */
+
+.tg-filters-holder {
+    margin-top: 8px !important;
+}
+
+.tg-filter,
+.tg-filter-active {
+    padding: 8px 8px;
+    border: 2px solid #404040;
+}
+
+.tg-filter:hover,
+.tg-filter-active {
+    background-color: #404040;
+}
+
+.tg-filter:hover span,
+.tg-filter-active span{
+    color: #f3f3f3 !important;
+}
+
+/* Woocommerce */
+.mk-message-box.mk-info-message-box {
+    background-color: #fafafa !important;
+    border: 0px solid;
+    margin-bottom: 40px;
+}
+
+.mk-message-box span {
+    text-align: center !important;
+}
+
+.woocommerce form .form-row input.input-text,
+.woocommerce-page form .form-row input.input-text,
+.woocommerce form .form-row textarea,
+.woocommerce-page form .form-row textarea {
+    background: #fafafa !important;
+    border: 3px solid #eee;
+}
+
+th.product-name {
+    text-align: left !important;
+}
+
+.shop_table thead th,
+tr.cart-subtotal th,
+tr.cart-subtotal td {
+    padding: 20px 12px !important;
+    border: 3px solid #eee !important;
+    font-size: 18px;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+#order_review_heading {
+    margin-bottom: 24px;
+}
+
+.select2-container .select2-choice {
+    border: 3px solid #eee !important;
+    background: #fafafa !important;
+    border-radius: 0 !important;
+
+}
+
+.select2-drop {
+    border-radius: 0 !important;
+}
+
+.select2-drop-active {
+    border: 3px solid #eee !important;
+    padding-top: 6px;
+    background: #fafafa;
+}
+
+
+/**
+ * FOOTER SECTION
+ */
+
+#footer-logo {
+  width: 100%;
+}
+
+#mk-footer .widgettitle {
+  color: #fff !important;
+}
+
+#mk-footer, #mk-footer .widgettitle, .footer, #mk-footer p {
+  color: #fff !important;
+}
+
+#mk-footer .gform_button[type=submit] {
+  background-color: #fff !important;
+  color: #252525 !important;
+}
+
+
+/*
+ *  Gravity Form Helpers
+ */
+
+.one-line {
+  margin-top: 0 !important;
+}
+
+.one-line .ginput_container_name span {
+  display: block !important;
+  width: 100%;
+}
+
+.one-line .ginput_complex.ginput_container.gf_name_has_2 span {
+  width: 100% !important;
+}
+
+#field_3_4 label {
+  display: none;
+}
+
+/**
+ * Import from Theme Custom CSS
+ */
+
+ .main-navigation-ul > li.menu-item > a.menu-item-link {
+font-weight: normal!important;
+text-transform: none !important;
+}
+
+.header-style-2 .mk-header-nav-container {
+border: 0px !important;
+}
+
+.mk-header-inner, .header-sticky-ready .mk-header-inner, .header-style-2.header-sticky-ready .mk-classic-nav-bg {
+border: 0px !important;
+}
+
+#mk-header {
+border: 0px !important;
+}
+
+body {
+background: #ffd549;
+}
+
+.mk-header-nav-container, .mk-classic-menu-wrapper {
+padding-top: 5px;
+}
+
+.header-grid.mk-grid {
+padding-bottom: 20px;
+}

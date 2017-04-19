@@ -1,0 +1,1 @@
+function stickyScroll(a){var b=window.pageYOffset;menubar=document.querySelector("#profilo-menu");fix_class="is--fixed";if(b>=170){menubar.classList.add(fix_class)}if(b<170){menubar.classList.remove(fix_class)}}window.addEventListener("scroll",stickyScroll,false);
