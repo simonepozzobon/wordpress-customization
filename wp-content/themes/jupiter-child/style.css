@@ -27,7 +27,7 @@ Version:        5.8
 }
 
 .preloader-logo, .preloader-preview-area {
-  min-height: 10%;
+  min-height: 12%;
   min-width: 50%;
 }
 
@@ -62,15 +62,38 @@ Version:        5.8
 }
 
 #profilo-menu .add-header-height {
-  height: 40px !important;
+  height: 60px !important;
   background-color: rgb(255, 255, 255);
-  padding-top: 10px;
+  padding-top: 14px;
   padding-left: 20px;
   padding-bottom: 10px;
 }
 
 #profilo-menu .mk-header-right {
   display: none !important;
+}
+
+#profilo-menu .main-navigation-ul {
+  margin-left: 16px;
+}
+
+#profilo-menu .main-navigation-ul > li.menu-item > a.menu-item-link {
+  padding: 0 !important;
+  margin: 0 5px 5px 0 !important;
+}
+
+#profilo-menu .menu-item span {
+  border: 2px solid #252525;
+  padding: 8px;
+}
+
+#profilo-menu .menu-item span:hover {
+  background-color: #252525 !important;
+  color: #fff !important;
+}
+
+#a-chi-mi-rivolgo {
+  padding-top: 32px;
 }
 
 .is--fixed {
@@ -175,6 +198,39 @@ div.tg-ajax-button.tg-nav-color.tg-nav-border.tg-nav-font:hover span.tg-nav-colo
 }
 
 /**
+ * Header
+ */
+
+.mk-header {
+  max-width: 1140px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.header-style-2.header-align-left .mk-header-nav-container {
+  top: 11px;
+}
+
+.mk-main-wrapper-holder {
+  margin-top: 40px;
+}
+
+/**
+ * Social Header
+ */
+
+.mk-header-social.header-section {
+ visibility: visible !important;
+ opacity: 1 !important;
+}
+
+.mk-header-social .mk-svg-icon {
+  width: 32px !important;
+  height: 32px !important;
+}
+
+
+/**
  * Theme page wrapper
  */
 
@@ -200,6 +256,107 @@ div.tg-ajax-button.tg-nav-color.tg-nav-border.tg-nav-font:hover span.tg-nav-colo
     text-transform: uppercase;
 }
 
+
+
+.master-holder .mk-blog-single {
+  padding: 40px 0;
+}
+.master-holder .mk-single-content {
+  margin-bottom: 45px;
+}
+
+.master-holder .single-post-tags,
+.master-holder .mk-about-author-wrapper,
+.master-holder #comments {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.master-holder .single-post-tags {
+  margin-bottom: 70px;
+}
+.master-holder .single-post-tags a {
+  padding: 10px 15px;
+  background-color: #f5f5f5;
+  color: #222222;
+  font-size: 14px;
+  border-radius: 3px;
+  margin-bottom: 3px;
+}
+.master-holder .mk-social-share {
+  text-align: center;
+  margin-bottom: 60px;
+  padding-bottom: 60px;
+  position: relative;
+}
+.master-holder .mk-social-share:after {
+  width: 60px;
+  height: 3px;
+  position: absolute;
+  left: 50%;
+  margin-left: -30px;
+  bottom: 1px;
+  content: '';
+  background-color: #222222;
+}
+.master-holder .mk-social-share ul {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  margin: 0;
+}
+.master-holder .mk-social-share ul li {
+  float: left;
+  margin: 0 20px;
+}
+@media handheld, only screen and (max-width: 767px) {
+  .master-holder .mk-social-share ul li {
+    margin: 0 10px;
+  }
+}
+.master-holder .mk-about-author-wrapper {
+  background-color: #f7f7f7;
+  border: none;
+  text-align: center;
+  padding: 40px 50px;
+  border-radius: 3px;
+}
+.master-holder .mk-about-author-wrapper .mk-about-author-meta {
+  margin: 0;
+}
+.master-holder .mk-about-author-wrapper .about-author-title,
+.master-holder .mk-about-author-wrapper .about-author-name {
+  font-size: 16px;
+  color: #222222;
+  font-family: Georgia, serif;
+  font-style: italic;
+}
+.master-holder .mk-about-author-wrapper .about-author-title {
+  margin-bottom: 15px;
+  text-transform: capitalize !important;
+}
+.master-holder .mk-about-author-wrapper .about-author-name {
+  margin-bottom: 25px;
+}
+.master-holder .mk-about-author-wrapper .about-author-desc {
+  font-size: 16px;
+  line-height: 28px;
+  color: #222222;
+}
+.master-holder .mk-about-author-wrapper .about-author-social a {
+  color: #222222;
+}
+
+.blog-style-compact .about-author-name, .blog-style-compact .about-author-desc, .blog-style-compact .about-author-social {
+  padding-left: 0 !important;
+}
 
 /* EVENTS */
 
@@ -248,6 +405,33 @@ span.tribe-tickets-remaining {
 
 .sp-events-all {
     text-align: center;
+}
+
+#title-subtitle {
+  position: absolute;
+  z-index: 2;
+}
+
+#blog-single-title {
+  padding: 20px 20px 0 20px;
+  color: #fff !important;
+}
+
+#blog-single-subtitle {
+  padding: 0 20px;
+  color: #fff !important;
+  font-size: 28px;
+  font-weight: normal;
+}
+
+#blog-single-date {
+  padding: 20px;
+  color: #fff !important;
+  font-size: 24px;
+}
+
+.single-social-section {
+  position: relative;
 }
 
 
@@ -355,6 +539,20 @@ tr.cart-subtotal td {
   background-color: #fff !important;
   color: #252525 !important;
 }
+
+#mk-footer .widgettitle {
+  font-weight: bolder;
+}
+
+
+/**
+ * Sub footer
+ */
+
+ #sub-footer .mk-grid .mk-footer-copyright {
+   width: 100%;
+   text-align: center;
+ }
 
 
 /*

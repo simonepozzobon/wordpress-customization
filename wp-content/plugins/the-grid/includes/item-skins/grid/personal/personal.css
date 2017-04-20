@@ -1,0 +1,42 @@
+.tg-eventi a:not([class*="tg-element-"]),
+.tg-eventi a:not([class*="tg-element-"]):active,
+.tg-eventi a:not([class*="tg-element-"]):focus,
+.tg-eventi [class*="tg-element-"] *:not(del) {
+	margin: 0;
+	padding: 0;
+	color: inherit !important;
+	text-align: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	line-height: inherit;
+	font-weight: inherit;
+	text-transform: inherit;
+	text-decoration: inherit;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: none;
+}
+.tg-eventi [class*="tg-element-"],
+.tg-eventi .tg-item-overlay,
+.tg-eventi .tg-center-holder,
+.tg-eventi .tg-center-inner > * {
+	vertical-align: middle;
+}
+.tg-eventi .tg-element-1 {
+	position: relative;
+	font-size: 25px;
+	line-height: 26px;
+	font-weight: 400;
+	display: block;
+	margin: 0;
+	padding: 8px;
+}
+.tg-eventi .tg-element-2 {
+	position: relative;
+	font-size: 12px;
+	line-height: 20px;
+	font-weight: 400;
+	display: block;
+	margin: 0;
+	padding: 8px;
+}
