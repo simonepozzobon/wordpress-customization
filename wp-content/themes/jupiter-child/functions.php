@@ -87,3 +87,21 @@ add_filter('tg_register_item_skin', function($skins) {
     return $skins;
 
 });
+add_filter('tg_register_item_skin', function($skins) {
+
+    // just push your skin slugs (file name) inside the registered skin array
+    $skins = array_merge($skins,
+        array(
+            'personal-small' => array(
+                'filter'   => 'Personal Small', // filter name used in slider skin preview
+                'name'     => 'Personal Small', // Skin name used in skin preview label
+                'col'      => 1, // col number in preview skin mode
+                'row'      => 1  // row number in preview skin mode
+            )
+        )
+    );
+
+    // return all skins + the new one we added (my-skin1)
+    return $skins;
+
+});

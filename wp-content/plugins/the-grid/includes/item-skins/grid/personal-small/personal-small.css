@@ -24,24 +24,14 @@
 }
 .tg-eventi .tg-element-3 {
 	position: relative;
-	font-size: 25px;
-	line-height: 26px;
-	font-weight: 700;
 	display: block;
 	margin: 0;
-	padding: 8px;
 }
 .tg-eventi .tg-element-2 {
 	position: relative;
-	font-size: 24px !important;
-	font-weight: 400;
 	display: block;
-	padding: 8px 8px 0;
 }
 .tg-eventi .tg-element-1 {
 	position: relative;
-	font-size: 21px !important;
-	font-weight: 700 !important;
 	display: block;
-	padding: 0 8px 8px;
 }
